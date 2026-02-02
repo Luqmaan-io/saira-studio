@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% endlock %}
+    {% endblock %}
 
     {% block extra_meta %}
     {% endblock %}
@@ -32,11 +32,11 @@
   <body>
     <header class="content-fluid fixed-top"></header>
 
-    {% if report%}
-    <div class="report-container"></div>
-    {% endblock %}
+    {% if report %}
+        <div class="report-container"></div>
+    {% endif %}
 
-    {% blcok page_header %}
+    {% block page_header %}
     {% endblock %}
 
     {% block content %}
@@ -44,6 +44,6 @@
 
     {% block postloadjs %}
     {% endblock %}
-    
+
   </body>
 </html>
