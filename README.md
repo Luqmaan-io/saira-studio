@@ -62,9 +62,19 @@ Site owners and admins require the ability to manage products more easily allowi
 
 #### 4. Business Goals
 Saira Studio’s business goals are to:
-Establish an online presence that reflects Saira’s curated fashion aesthetic.
-Organise products in a way that builds trust and promotes designer exclusivity.
-Allow the store to scale by adding new designers, collections, and product lines easily.
+- Establish an online presence that reflects Saira’s curated fashion aesthetic.
+- Organise products in a way that builds trust and promotes designer exclusivity.
+- llow the store to scale by adding new designers, collections, and product lines easily.
+
+#### 5. Success Criteria
+##### For users:
+Ability to browse and find products quickly whilst easily navigating between designers, collections, and wear types.
+Providing a smooth checkout experience and giving them full access to order history and their account details.
+
+##### For the business:
+Having secure payment handling throught stripe integration whilst also creating a strong brand identity through consistent UI.
+Efficient product management.
+
 
 ### Scope
 
